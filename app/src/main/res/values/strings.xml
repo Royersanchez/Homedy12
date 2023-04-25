@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Homedy</string>
+    <string name="homedy">Homedy</string>
+    <string name="remedios">Remedios</string>
+    <string name="cuidado_personal">Cuidado personal</string>
+    <string name="golpes">Golpes</string>
+    <string name="dolores">Dolores</string>
+    <string name="bajar_de_peso">Bajar de peso</string>
+    <string name="mascotas">Mascotas</string>
+    <string name="otros">Otros</string>
 </resources>
