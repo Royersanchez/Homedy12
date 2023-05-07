@@ -33,53 +33,59 @@
 
         <TextView
             android:id="@+id/Remedios"
-            android:layout_width="match_parent"
-            android:layout_height="37dp"
+            android:layout_width="432dp"
+            android:layout_height="54dp"
             android:text="@string/remedios"
             android:textColor="@color/white"
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/dolores"
             android:layout_width="233dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
-            android:text="@string/dolores" />
+            android:text="@string/dolores"
+            android:textColor="@color/white" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="235dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
-            android:text="@string/cuidado_personal" />
+            android:text="@string/cuidado_personal"
+            android:textColor="@color/white" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="235dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
-            android:text="@string/bajar_de_peso" />
+            android:text="@string/bajar_de_peso"
+            android:textColor="@color/white" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="237dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
-            android:text="@string/golpes" />
+            android:text="@string/golpes"
+            android:textColor="@color/white" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="239dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
-            android:text="@string/mascotas" />
+            android:text="@string/mascotas"
+            android:textColor="@color/white" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/otros"
             android:layout_width="239dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
-            android:text="@string/otros" />
+            android:text="@string/otros"
+            android:textColor="@color/white" />
 
     </LinearLayout>
 

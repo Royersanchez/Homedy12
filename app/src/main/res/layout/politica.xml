@@ -8,20 +8,22 @@
     android:backgroundTint="#4CAF50">
 
     <Button
-        android:id="@+id/Aceptar"
+        android:id="@+id/aceptar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:backgroundTint="#000000"
         android:text="Aceptar"
+        android:textColor="@color/white"
         android:textColorHint="#014E23"
         app:circularflow_defaultRadius="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintHorizontal_bias="0.288"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/googleanalitic"
-        app:layout_constraintVertical_bias="0.343" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.618"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/Cancelar"
@@ -30,13 +32,14 @@
         android:layout_marginTop="48dp"
         android:backgroundTint="#000000"
         android:text="Cancelar"
+        android:textColor="@color/white"
         app:circularflow_defaultRadius="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.734"
+        app:layout_constraintHorizontal_bias="0.757"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/googleanalitic"
-        app:layout_constraintVertical_bias="0.328" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614" />
 
     <TextView
         android:id="@+id/textView3"
